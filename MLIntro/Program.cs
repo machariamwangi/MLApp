@@ -9,7 +9,7 @@ namespace MLIntro
         {
             Console.WriteLine("Hello, World!");
             var context = new MLContext();
-            var data = context.Data.LoadFromTextFile<HousingData>("./housing.cv", hasHeader: true, separatorChar: ',');
+            var data = context.Data.LoadFromTextFile<HousingData>("./housing.csv", hasHeader: true, separatorChar: ',');
 
             var split = context.Data.TrainTestSplit(data, testFraction: 0.2);
 

@@ -13,7 +13,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Update="housing.csv">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="SalaryData.csv">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

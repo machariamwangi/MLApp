@@ -11,9 +11,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaxiFarePrediction", "TaxiF
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaxiFare_API", "TaxiFare_API\TaxiFare_API.csproj", "{131D24B1-CD88-4B26-B175-54B0E1F7B637}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MLIntro", "MLIntro\MLIntro.csproj", "{018D2903-A6D6-4B65-A6A1-16C381EAF2A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MLIntro", "MLIntro\MLIntro.csproj", "{018D2903-A6D6-4B65-A6A1-16C381EAF2A6}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MLIntro_MLApp", "MLIntro_MLApp\MLIntro_MLApp.csproj", "{9AA789A7-DCFA-431B-9E4B-37AF5BF2937E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ML.NETArchitech", "ML.NETArchitech\ML.NETArchitech.csproj", "{4C248074-8109-499D-81A3-2F8D4258F5AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransferLearningTF", "TransferLearningTF\TransferLearningTF.csproj", "{425B7AD9-604E-4F18-8CEF-E59AEEEFC9A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{9AA789A7-DCFA-431B-9E4B-37AF5BF2937E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9AA789A7-DCFA-431B-9E4B-37AF5BF2937E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9AA789A7-DCFA-431B-9E4B-37AF5BF2937E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C248074-8109-499D-81A3-2F8D4258F5AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C248074-8109-499D-81A3-2F8D4258F5AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C248074-8109-499D-81A3-2F8D4258F5AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C248074-8109-499D-81A3-2F8D4258F5AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{425B7AD9-604E-4F18-8CEF-E59AEEEFC9A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{425B7AD9-604E-4F18-8CEF-E59AEEEFC9A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{425B7AD9-604E-4F18-8CEF-E59AEEEFC9A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{425B7AD9-604E-4F18-8CEF-E59AEEEFC9A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
